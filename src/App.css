@@ -1,0 +1,34 @@
+*{
+  font-family: 'Inter';
+  font-style: normal;
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style-type: none;
+  outline: none;
+};
+
+.cointainer{
+  width: 100%;
+  /* margin: 1rem auto; */
+
+
+}
+
+.grid{
+  display: grid;
+  margin-left: .5px;
+  grid-template-columns: repeat(4,1fr);
+  grid-gap: 0.2em;
+  justify-content: center;
+}
+
+.mrm{
+  margin-left: 20vh;
+}
+
+.image{
+  height: 50px;
+  width: 50px;
+  margin-left: 2rem;
+}
